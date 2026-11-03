@@ -1,0 +1,80 @@
+.shell {
+  box-sizing: border-box;
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 24px 16px;
+  color: #111322;
+  background:
+    radial-gradient(ellipse at 50% 0%, #eae4ff 0%, transparent 62%),
+    linear-gradient(#faf8ff, #ffffff);
+}
+
+.card {
+  width: 100%;
+  max-width: 432px;
+  padding: 20px 32px;
+  border: 1px solid #e9e5f2;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 12px 48px #4f32900a;
+}
+
+.puppy { display: block; width: 64px; height: 64px; margin: 0 auto 8px; object-fit: contain; }
+
+.card h1 {
+  color: #111322;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -1px;
+  cursor: default;
+}
+
+.card h1 + * { margin-top: 16px; }
+.card form > div > div:nth-child(2) { margin-top: 16px; }
+.card :global(.text-textColor) { color: #252638; }
+.card :global(.bg-fifth) { background: #e9e5f2; }
+.card :global(.h-\[20px\]) { margin-top: 16px; margin-bottom: 16px; }
+.card :global(.px-\[16px\]):not(input) { background-color: white; }
+.card input { min-width: 0; color: #111322; }
+.card input::placeholder { color: #858395; }
+.card :global(.border-newTableBorder) { border-color: #dedbe8; background: #fff; }
+.card :global(.border-newTableBorder):focus-within {
+  border-color: #7955e9;
+  box-shadow: 0 0 0 3px #7955e91a;
+}
+.card :global(.text-red-400) { color: #be2648; line-height: 14px; }
+.card :global(.mt-6) { margin-top: 12px; }
+.card :global(.mt-4) { margin-top: 12px; }
+.card button[type='submit'] {
+  height: 44px !important;
+  border-radius: 10px;
+  background: linear-gradient(110deg, #5b45e5, #8b55ef);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 12px #7553e526;
+}
+.card button[type='submit']:hover { filter: brightness(1.05); }
+.card a { color: #6243c9; text-underline-offset: 3px; }
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 11px;
+  color: #777284;
+}
+.footer a:hover { color: #6243c9; text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .shell { padding: 16px; gap: 14px; }
+  .card { padding: 24px; }
+}
+@media (max-height: 680px) {
+  .shell { padding-top: 12px; padding-bottom: 12px; gap: 10px; }
+  .card { padding-top: 20px; padding-bottom: 20px; }
+}
