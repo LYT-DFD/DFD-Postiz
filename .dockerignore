@@ -31,4 +31,3 @@ reports
 .secrets
 **/*.pem
 **/*.key
-
