@@ -19,7 +19,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
           {children}
         </section>
         <footer className={styles.footer}>
-          <a href="https://github.com/LYT-DFD/DFD-Postiz/tree/dfd-theme-v1"
+          <a href="https://github.com/LYT-DFD/DFD-Postiz/tree/dfd-brand-v1"
              target="_blank" rel="noopener noreferrer">Source code</a>
           <span aria-hidden="true">·</span>
           <span>AGPL-3.0</span>
