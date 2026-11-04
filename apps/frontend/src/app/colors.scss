@@ -238,3 +238,46 @@
     --color-modalCustom: transparent;
   }
 }
+
+// DFD-Postiz: shared REQeV-inspired light palette.
+:root .light {
+  color-scheme: light;
+  --new-bgColor: #f8f7fc;
+  --new-bgColorInner: #ffffff;
+  --new-settings: #f1eef9;
+  --new-border: #e9e5f2;
+  --new-sep: #ded8ed;
+  --new-bgLineColor: #e9e5f2;
+  --new-textColor: 17 19 34;
+  --new-textItemFocused: #6243c9;
+  --new-textItemBlur: #777284;
+  --new-boxFocused: #ede7ff;
+  --new-btn-simple: #f1eef9;
+  --new-btn-text: #111322;
+  --new-btn-primary: #6d4de9;
+  --new-box-hover: #f5f1ff;
+  --new-table-border: #e9e5f2;
+  --new-table-header: #f7f4fd;
+  --new-table-text: #777284;
+  --new-table-text-focused: #6243c9;
+  --new-big-strips: #faf8ff;
+  --new-col-color: #f1eef9;
+  --new-menu-dots: #777284;
+  --menu-shadow: 0 8px 30px #4f32900d;
+  --color-primary: #f8f7fc;
+  --color-secondary: #ffffff;
+  --color-text: #111322;
+  --color-third: #ffffff;
+  --color-forth: #6d4de9;
+  --color-seventh: #8b55ef;
+  --color-gray: #777284;
+  --color-input-text: #777284;
+  --color-table-border: #e9e5f2;
+  --color-custom4: #8b55ef;
+  --color-custom7: #6d4de9;
+  --color-custom20: #f7f4fd;
+  --color-custom30: #ede7ff;
+  --color-custom31: #e9e5f2;
+  --color-custom50: #6243c9;
+  --color-custom51: #6d4de9;
+}

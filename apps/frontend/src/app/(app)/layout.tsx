@@ -45,7 +45,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
       </head>
       <ChangeDirClient />
       <body
-        className={clsx(jakartaSans.className, 'dark text-primary !bg-primary')}
+        className={clsx(jakartaSans.className, cookieStore.get('mode')?.value === 'dark' ? 'dark text-primary !bg-primary' : 'light text-primary !bg-primary')}
       >
         <VariableContextComponent
           storageProvider={
